@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(https://learn.logikaschool.com/uploads/student/4652114/6709263b60c86.jpg);
+     background-size: cover; /* Зображення буде покривати весь контейнер */
+  background-position: center; /* Центрування зображення */
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(13, 90, 71);
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    
+    background-color: rgb(8, 48, 48);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(134, 255, 198);
+    margin: 30px;
+}
+
+.logo{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 48, 48,0.5);
+    display: flex; /* Використовуємо Flexbox */
+  justify-content: center; /* Горизонтальне вирівнювання */
+  align-items: center;
+}
+.logo h1{
+    color: aliceblue;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+   
+    width: 100%;
+    background-color: rgb(8, 48, 48,0.9);
+}
+
+
+.photo{
+    width: 400px;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: rgb(8, 48, 48,0.9);
+    margin-top: 30px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 1px black;
+}
+.photo img{
+    width: 100%;
+}
+.photo p{
+    color: white;
+    text-align: center;
+}
+

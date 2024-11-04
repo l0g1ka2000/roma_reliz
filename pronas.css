@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(https://learn.logikaschool.com/uploads/student/4652114/6709263b60c86.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(13, 90, 71);
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    
+    background-color: rgb(8, 48, 48);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(134, 255, 198);
+    margin: 30px;
+    transition: 0.3s;
+}
+nav a:hover{
+     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+               0 0 20px rgba(255, 255, 255, 0.6),
+               0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+.logo{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 48, 48,0.5);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1{
+    color: aliceblue;
+}
+
+
+.container2{
+    background-color: rgb(8, 48, 48,0.5);
+    height: 100vh;
+    width: 100%;
+}
+.txt2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 85%;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.txt2 p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.txt2 ul {
+    list-style: none;
+    padding-left: 20px; 
+    margin-bottom: 15px;
+}
+
+.txt2 ul li {
+    font-size: 18px;
+    color: rgb(0, 0, 0); 
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.txt2 ul li::before {
+    content: '• ';
+    color: rgb(8, 48, 48); 
+    font-weight: bold;
+}
+
+.txt2 h2 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(8, 48, 48);
+    margin-bottom: 20px;
+}
+
+.txt2 ul li a {
+    color: rgb(8, 48, 48);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.txt2 ul li a:hover {
+    text-decoration: underline;
+}
+

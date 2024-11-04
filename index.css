@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(https://learn.logikaschool.com/uploads/student/4652114/6709263b60c86.jpg);
+     background-size: cover; /* Зображення буде покривати весь контейнер */
+  background-position: center; /* Центрування зображення */
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(13, 90, 71);
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    
+    background-color: rgb(8, 48, 48);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(134, 255, 198);
+    margin: 30px;
+    transition: 0.3s;
+}
+nav a:hover{
+     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Основний ефект підсвічування */
+               0 0 20px rgba(255, 255, 255, 0.6), /* Додатковий ефект */
+               0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+.logo{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 48, 48,0.5);
+    display: flex; /* Використовуємо Flexbox */
+  justify-content: center; /* Горизонтальне вирівнювання */
+  align-items: center;
+}
+.logo h1{
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 48, 48,0.9);
+}
+
+
+.container img{
+    transform: scale(0.7);
+    z-index: 0;
+    border-radius: 5px;
+}
+.txt{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: relative;
+    
+    width: 800px;
+    height: 400px;
+    left: 20%;
+    top: 10%;
+    z-index: 1;
+    border-radius: 5px;
+}
+.txt p{
+    font-size: 22px;
+color: black;
+text-align: justify;
+}
+
+.container2{
+    background-color: rgb(8, 48, 48,0.5);
+    height: 100vh;
+    width: 100%;
+}
+.txt2{
+    background-color: rgba(255, 255, 255, 0.904);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.txt2 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(8, 48, 48);
+    color: rgb(134, 255, 198);
+    text-align: center;
+    width: 100%;
+    
+}
+
+
